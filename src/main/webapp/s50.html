@@ -7,7 +7,7 @@
 <body>
     <h1>Asynchronous JavaScript And XML</h1>
     <p>
-        Back to <a href="./index.html">home</a>
+        Back to <a href=".#js">home</a>
     </p>
 
     <textarea id="target" rows="20" cols="80"></textarea>
@@ -55,14 +55,14 @@
         function getTextDetailed() {
             let request = new XMLHttpRequest();
             request.onreadystatechange = callback;
-            request.open("GET", "/eswp/s45.txt");
+            request.open("GET", "/mswat/s50.txt");
             request.send();
         }
 
         function getText() {
             let request = new XMLHttpRequest();
             request.onload = callback;
-            request.open("GET", "/eswp/s45.txt");
+            request.open("GET", "/mswat/s50.txt");
             request.send();
         }
     </script>

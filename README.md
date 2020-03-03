@@ -1,4 +1,4 @@
-# mswapp
+# mswa
 Maven Static Web App
 
 Gentle introduction to Web Technologies (HTML, CSS, JavaScript)

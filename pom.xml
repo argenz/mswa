@@ -3,10 +3,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>it</groupId>
-    <artifactId>mswapp</artifactId>
+    <artifactId>mswa</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Maven Static Webapp on Tomcat</name>
+    <name>Maven Static Web App</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,6 +15,6 @@
     </properties>
 
     <build>
-        <finalName>mswapp</finalName>
+        <finalName>mswa</finalName>
     </build>
 </project>

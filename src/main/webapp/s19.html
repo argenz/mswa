@@ -12,17 +12,19 @@
     </p>
 
     <!-- TBD: action not implemented -->
-    <form action="/comment" method="post">
+    <form action="/comment" method="get">    		   <!-- action serve a riconoscere il codice java che risponde a questa richiesta -->
+    												   <!-- GET, metodo più semplice 
+    											 		    POST, metodo che mette le informazioni in payload -->
         <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="sender">
+            <label for="name">Name:</label>                <!-- 'for' indica a cosa è associato questo label -->
+            <input type="text" id="name" name="sender">    <!-- input -->
         </div>
         <div>
             <label for="msg">Message:</label>
-            <textarea id="msg" name="message"></textarea>
+            <textarea id="msg" name="message">Type something here</textarea>
         </div>
         <div>
-            <button type="submit">Send</button>
+            <button type="submit">Send</button>        <!-- fa partire la richiesta, deve essere dentro al form -->
         </div>
     </form>
 </body>

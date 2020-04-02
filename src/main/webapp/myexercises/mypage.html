@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>La mia prima pagina</title>
+<link rel="stylesheet" type="text/css" href="../css/mypage.css" />
+</head>
+
+<body>
+	<h1>Francesca</h1>
+	<p>
+		<b>Contact</b> &#183; mycontact@gmail.com
+	</p>
+<hr>
+	<div id="pres">
+	<h3 id='welcome'>Benvenuta/o nella mia pagina HTML!</h3>	
+	<p>
+	    <br>
+		Mi chiamo Francesca e questa è una pagina nella quale sperimento con i linguaggi HTML e CSS. 
+	</p>
+	</div>
+<hr>
+<div id='abito'>
+	<h3>Dove abito</h3>
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d358576.1170121306!2d8.84865045879401!3d45.40175867413043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1493f1275e7%3A0x3cffcd13c6740e8d!2sMilan%2C%20Metropolitan%20City%20of%20Milan%2C%20Italy!5e0!3m2!1sen!2sfr!4v1585737381552!5m2!1sen!2sfr"
+		width="1025" height="150" frameborder="0" style="border: 0;"
+		allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+<div id='vissuto'>
+	<h3>Dove ho vissuto</h3>
+	<ul>
+		<li>Milano &#127961;</li>
+		<li>Delft &#128218;</li>
+		<li>Valencia &#127796;</li>
+	</ul>
+</div>
+<div id='lingue'>	
+	<h3>Quali lingue parlo</h3>
+	<ol>
+		<li>Italiano</li>
+		<li>Inglese</li>
+		<li>Spagnolo</li>
+	</ol>
+</div>
+
+	<h3>Foto di Valencia</h3>
+	<figure>
+		<img src='img/valencia.jpg'>
+		<figcaption>
+			per consultare più foto di questa magnifica città clicca <a
+				href='https://www.google.com/search?q=foto+valencia&sxsrf=ALeKk01ArDKQuEzmbLoViGYX2kEdoizBzA:1585738596169&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjQwuzNiMfoAhUyTRUIHStgBd0Q_AUoAXoECA0QAw'>qui!</a>
+		</figcaption>
+	</figure>
+
+
+
+	<h4>Argomenti esplorati nell'ultimo mese</h4>
+	<table>
+		<thead>
+			<tr>
+				<th>Column 1</th>
+				<th>Model</th>
+				<th>View</th>
+				<th>Controller</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope='row'>Row 1</th>
+			<td>SQL</td>
+			<td>HTLM</td>
+			<td>Java</td>
+		</tr>
+		<tr>
+			<th scope='row'>Row 2</th>
+			<td>MySQL</td>
+			<td>CSS</td>
+			<td>JDBC</td>
+		</tr>
+		<tr>
+			<th scope='row'>Row 3</th>
+			<td></td>
+			<td> <i>next:</i> JavaScript</td>
+			<td></td>
+		</tr>
+
+	</table>
+
+	<p>If you have questions, please leave your questions and contact
+		below:</p>
+
+	<form action='/question' method='post'>
+
+		<div>
+			<label for='firstname'>Your First Name:</label> <input type="text"
+				id='firstname' name="first_name"
+				placeholder="Write your first name here." required />
+		</div>
+		<br>
+		<div>
+			Your Last Name: <input type="text" name="last_name"
+				placeholder="Write your last name here." required />
+		</div>
+		<br>
+		<div>
+			Your Email: <input type="text" name="email_contact"
+				placeholder="Write your email here." required />
+
+		</div>
+		<br>
+		<div>
+			Your Question:
+			<textarea name='question' required></textarea>
+		</div>
+		<br>
+
+		<div>
+			<br> <input type='submit' value='Submit Question' />
+		</div>
+	</form>
+
+
+
+</body>
+</html>

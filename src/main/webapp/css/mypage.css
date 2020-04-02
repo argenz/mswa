@@ -1,0 +1,41 @@
+
+
+body{
+	background-color: #d0fff9;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Sofia Pro";
+}
+
+p {
+	font-family: "Sofia Pro Light"
+}
+
+div#pres {
+	text-align: center;
+}
+div#pres:hover{
+	color: #3368ff;
+	background-color: #cbff77; 				 /*Non funziona*/
+}
+
+#welcome {
+	font-family: "BankGothic";
+	font-size: 24px;
+}
+
+table{
+	text-align: center;
+	border: 2px solid blue;
+    border-collapse: collapse; 
+    width: 50%;
+}
+
+th {
+	border: 1px solid blue;
+}
+
+td {
+	border: 1px #f91808;
+}

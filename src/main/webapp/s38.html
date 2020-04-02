@@ -17,28 +17,31 @@
         let target = document.getElementById('target');
 
         let value = 2;
-        let check = value === 2;
+        let check = value === 2;		  //true
+        target.value += check + '\n';      
+
+        check = value !== 3;              //true
+        target.value += check + '\n';     
+
+        check = value < 2;                //false
+        target.value += check + '\n';    
+
+        check = value <= 2;				  //true
         target.value += check + '\n';
 
-        check = value !== 3;
+        check = value > 2;				  //false
         target.value += check + '\n';
 
-        check = value < 2;
+        check = value >= 2;				  //true
         target.value += check + '\n';
 
-        check = value <= 2;
+        check = value == '2';			  //true
+        target.value += check + '\n';
+        
+        check = value === '2';			  //false
         target.value += check + '\n';
 
-        check = value > 2;
-        target.value += check + '\n';
-
-        check = value >= 2;
-        target.value += check + '\n';
-
-        check = value == '2';
-        target.value += check + '\n';
-
-        check = value != '2';
+        check = value != '2';			  //false
         target.value += check + '\n';
     </script>
 </body>

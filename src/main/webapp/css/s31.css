@@ -1,12 +1,12 @@
 table {
     border: 2px solid black;
-    border-collapse: collapse;
+    border-collapse: collapse; /* cell boders are united, try remove to see*/
     width: 50%;
 }
 
 td, th {
     border: 1px solid red;
-    padding: 3px;
+    padding: 4px;
     text-align: center;
 }
 
@@ -16,4 +16,6 @@ th {
 
 td {
     background-color: lightgreen;
+    text-align: right;     /* regole più specifica vince*/
 }
+

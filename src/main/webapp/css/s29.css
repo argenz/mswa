@@ -11,11 +11,13 @@ body {
 }
 
 input:hover {
-    color: blue;
-}
+    color: blue;     /*applicato al testo hover sul testo*/
+    background-color: red;
+} 
+
 
 div span {
-    background-color: yellow;
+    background-color: green;
 }
 
 div>span {

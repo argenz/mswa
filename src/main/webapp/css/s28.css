@@ -3,10 +3,10 @@ body {
 }
 
 p {
-    font-family: fantasy;
-}
+    font-family: fantasy;    /* classi principali di font: serif, sans serif */ 
+} 
 
-#special {
+#special {				/* id = special */
     color: violet;
 }
 
@@ -14,25 +14,26 @@ h1, h2, h3 {
     color: yellow;
 }
 
-.myClass {
+.myClass {				   /* class = myclass */
     font-style: italic;
 }
 
-p.myClass {
+p.myClass {			     	/* p di class = myclass, LA REGOLA SOGGETTA ALL'ELEMENTO PIU' SPECIFICO VINCE */
     color: blue;
 }
+
 
 #paragraphId {
     color: red;
 }
 
 #blockId {
-    border: 3px solid #ff8000;
+    border: 3px solid #ff8000;  
     background-color: #ffff80;
 }
 
-.boldCls {
-    font-weight: bold;
+.boldCls {                 /* si può anche fare b {} però così è piu' corretto */
+    font-weight: bold;  
 }
 
 .itaCls {
@@ -40,5 +41,12 @@ p.myClass {
 }
 
 .upperCls {
-    text-transform: uppercase;
+    text-transform: uppercase;    
 }
+
+/* esempio di first child*/
+li:first-child{
+	color: #f9585f;
+}
+
+
